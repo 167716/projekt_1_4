@@ -2,7 +2,6 @@ import java.lang.Math;
 import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
-    System.out.println("Kalkulator");
     System.out.println("Wybierz funkcje:");
     System.out.println("1 - potegowanie");
     System.out.println("2 - suma pierwiastków");
@@ -16,10 +15,16 @@ class Main {
     switch(x){
 
     case 1:
-      System.out.println("Liczba A do potegi B);
+      System.out.println("Liczba A do potegi B");
+      
         
     break;
-        
+      case 2:
+        break;
+      case 3:
+        break;
+      case 4:
+        break;
     }
   }
 }
