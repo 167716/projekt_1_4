@@ -20,11 +20,17 @@ class Main {
       System.out.println("Podaj b: ");
       double b=funkcja.nextInt();
       double c=Math.pow(a,b);
-      System.out.println("a do potęgi b = "+c);
+      System.out.println(a+" do potęgi "+b+" = "+c);
     }
     break;
       case 2:{
-        
+        System.out.println("Wybrałeś sumowanie pierwiastków");
+        System.out.println("Podaj liczbę pod pierwiastek A: ");
+        double a=funkcja.nextInt();
+        System.out.println("Podaj liczbe pod pierwiastek b: ");
+        double b=funkcja.nextInt();
+        double suma=Math.sqrt(a)+Math.sqrt(b);
+        System.out.println("Suma pierwiastków liczb "+a+" i "+b+" wynosi "+suma);
       }
         break;
       case 3:{
