@@ -1,4 +1,3 @@
-import java.lang.Math;
 import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
@@ -14,16 +13,27 @@ class Main {
   
     switch(x){
 
-    case 1:
-      System.out.println("Liczba A do potegi B");
-      
-        
+    case 1:{
+      System.out.println("Wybrałeś potęgowanie");
+      System.out.println("Podaj a:");
+      double a=funkcja.nextInt();
+      System.out.println("Podaj b: ");
+      double b=funkcja.nextInt();
+      double c=Math.pow(a,b);
+      System.out.println("a do potęgi b = "+c);
+    }
     break;
-      case 2:
+      case 2:{
+        
+      }
         break;
-      case 3:
+      case 3:{
+        
+      }
         break;
-      case 4:
+      case 4:{
+        
+      }
         break;
     }
   }
