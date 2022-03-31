@@ -48,7 +48,17 @@ class Main {
       }
         break;
       case 4:{
-        
+        System.out.println("Wybrałeś dzielenie");
+        System.out.println("Podaj dzielną: ");
+        double dzielna=funkcja.nextInt();
+        System.out.println("Podaj dzielnik:");
+        double dzielnik=funkcja.nextInt();
+        while(dzielnik == 0){
+          System.out.println("Podaj dzielnik inny niż 0");
+          dzielnik=funkcja.nextInt();
+        }
+        double wynik=dzielna/dzielnik;
+        System.out.println("Wynik dzielenia to: "+wynik);
       }
         break;
     }
