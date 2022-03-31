@@ -5,7 +5,7 @@ class Main {
     System.out.println("1 - potegowanie");
     System.out.println("2 - suma pierwiastków");
     System.out.println("3 - najwieksza liczba");
-    System.out.println("4 - ");
+    System.out.println("4 - dzielenie");
 
     
     Scanner funkcja = new Scanner(System.in); 
@@ -34,7 +34,17 @@ class Main {
       }
         break;
       case 3:{
-        
+        System.out.println("Wybrałeś szukanie największej liczby");
+        System.out.println("Podaj liczbe a: ");
+        double a=funkcja.nextInt();
+        System.out.println("podaj liczbe b: ");
+        double b=funkcja.nextInt();
+        System.out.println("Podaj liczbe c:");
+        double c=funkcja.nextInt();
+
+        double wieksza=Math.max(a,b);
+       double najwieksza=Math.max(wieksza,c);
+        System.out.println("Największa z podanych liczb to: "+najwieksza);
       }
         break;
       case 4:{
